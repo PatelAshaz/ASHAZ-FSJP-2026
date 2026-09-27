@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "LoginApp\\src\\main\\java",
+        "src"
+    ],
+    "java.project.referencedLibraries": [
+        "c:\\Users\\Shakir\\.rsp\\redhat-community-server-connector\\runtimes\\installations\\tomcat-11.0.0-M6_1\\apache-tomcat-11.0.0-M6\\lib\\servlet-api.jar"
+    ]
+}
