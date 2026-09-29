@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: aquamarine;
+        }
+
+        .container {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Welcome to My Site ! ! !</h1>
+        <h2>(\(-_-)/)---Ashaz Shakir Patel---(\(+_-)/)</h2>
+
+        <button onclick="changeBackground()">
+            Change Background Color
+        </button>
+    </div>
+
+    <script>
+        function changeBackground() {
+            let colors = ["yellow", "blue", "olive", "#674534", "#128a32"];
+            const bodyEle = document.querySelector("body");
+            let randomIndex = Math.floor(Math.random() * colors.length);
+
+            bodyEle.style.backgroundColor = colors[randomIndex];
+        }
+
+        setInterval(() => {
+            changeBackground();
+        }, 1000);
+    </script>
+
+</body>
+</html>
